@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0;
     width: 95%;
-    height: 95vh;
+    height: 150vh;
     border: 2px solid black;
 }
 
@@ -129,7 +129,10 @@
 }
 
 .container3{
+    width: 96.5%;
+    height: 30vh;
     border: 2px solid aqua;
+    margin-top: 2px;
 }
 
 .industry{
@@ -145,3 +148,28 @@
     align-items: center;
 }
 
+.container4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid brown;
+  margin-top: 2px;
+  width: 96.5%;
+  height: 30vh;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 50%;
+    height: 10vh;
+    border: 2px solid black;
+}
