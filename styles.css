@@ -20,7 +20,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 450vh;
+    height: 550vh;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -298,50 +298,77 @@
     align-items: center;
     padding: 10px;
     gap: 10px;
-    width: 50%;
-    height: 5vh;
+    width: 90%;
+    height: 10vh;
     border: 2px solid black;
+    background-color: #583288;
+    margin-top: 3rem;
+}
+
+.email{
+    width: 30%;
+    height: 5vh;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: white;
 }
 
 .container5{
     width: 96.5%;
-    height: 110vh;
+    height: 170vh;
     border: 2px solid blue;
     margin-top: 2px;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    margin-top: 10rem;
 }
 
 .offers{
     display: flex;
+    gap: 1px;
+    margin-top: 8rem;
 }
 
 .free{
     width: 50%;
     height: 80vh;
-    border: 2px solid pink;
+    border: 2px solid #23a6f0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+}
+
+.tryforfree{
+    width: 70%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #23a6f0;
+    background-color: #23a6f0;
+    border-radius: 5px;
 }
 
 .standard{
     width: 50%;
-    height: 80vh;
-    border: 2px solid pink;
+    height: 86.5vh;
+    border: 2px solid #23a6f0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -3rem;
+    background-color: #252b42;
 }
 
 .premium{
     width: 50%;
     height: 80vh;
-    border: 2px solid pink;
+    border: 2px solid #23a6f0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -350,13 +377,19 @@
 
 .container6{
     width: 96.5%;
-    height: 50vh;
+    height: 1200vh;
     border: 2px solid red;
     margin-top: 2px;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    margin-top: 2rem;
+    background-color: #252b42;
+}
+
+.branches{
+
 }
 
 .container7{
@@ -367,7 +400,7 @@
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
-    margin-top: -5rem;
+    margin-top: -2rem;
 }
 
 .container8{
