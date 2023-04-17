@@ -19,9 +19,9 @@
     background-color: #fafafa;
     padding: 0;
     margin: 0;
-    width: 100%;
-    height: 550vh;
-    border: 2px solid black;
+    /* width: 100%;
+    height: 700vh; */
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@
 .container1{
     margin-top: 2px;
     padding:10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 95%;
     height: 80vh;
     position: absolute;
@@ -78,6 +78,9 @@
     justify-content: center;
     align-items: center;
     margin-right: 3rem;
+    gap: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
     /* margin-left: 20rem; */
 }
 
@@ -140,7 +143,7 @@
     width: 20%;
     height: 30vh;
     background-color: white;
-    border: 2px solid red;
+    border: 20px solid transparent;
     padding: 20px;
 }
 
@@ -153,7 +156,7 @@
     width: 20%;
     height: 30vh;
     background-color: white;
-    border: 2px solid yellow;
+    border: 20px solid transparent;
     padding: 20px;
 }
 
@@ -166,7 +169,7 @@
     width: 20%;
     height: 30vh;
     background-color: #23a6f0;
-    border: 2px solid green;
+    border: 20px solid transparent;
     padding: 20px;
 }
 
@@ -176,7 +179,7 @@
 }
 
 .container2{
-    border: 2px solid yellow;
+    border: 2px solid transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,7 +192,8 @@
 .container3{
     width: 96.5%;
     height: 100vh;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
+    background-color: #fafafa;
     margin-top: 5rem;
 }
 
@@ -209,11 +213,18 @@
 .person1{
     width: 25%;
     height: 60vh;
-    border: 2px solid green;
+    border: 2px solid #dedede;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.stars{
+    color: #f3cd03;
+    margin-top: 5rem;
+    width: 7rem;
+    height: 10vh;
 }
 
 .person1 p{
@@ -228,7 +239,7 @@
 .person2{
     width: 25%;
     height: 60vh;
-    border: 2px solid green;
+    border: 2px solid #dedede;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,7 +253,7 @@
 .person3{
     width: 25%;
     height: 60vh;
-    border: 2px solid green;
+    border: 2px solid #dedede;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,7 +268,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
   margin-top: 20rem;
   width: 96.5%;
   height: 40vh;
@@ -301,7 +312,7 @@
     width: 90%;
     height: 10vh;
     border: 2px solid black;
-    background-color: #583288;
+    background-image: linear-gradient(90deg,#004788,#d71489);
     margin-top: 3rem;
 }
 
@@ -316,7 +327,7 @@
 .container5{
     width: 96.5%;
     height: 170vh;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 2px;
     display: flex;
     flex-direction: column;
@@ -379,8 +390,8 @@
 
 .container6{
     width: 96.5%;
-    height: 150vh;
-    border: 2px solid red;
+    height: 90vh;
+    /* border: 2px solid red; */
     margin-top: 2px;
     /* display: flex;
     flex-direction: column; */
@@ -393,7 +404,7 @@
 .branches{
     width: 40%;
     height: 30vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 5rem;
     margin-left: 10rem;
 }
@@ -410,19 +421,20 @@
 }
 
 .container7{
-    width: 40%;
-    height: 110vh;
-    border: 2px solid purple;
-    margin-top: -3rem;
+    width: 50%;
+    height: 100vh;
+    border: 2px solid transparent;
+    margin-top: -15rem;
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
+    background-color: white;
 }
 
 .container8{
     width: 96.5%;
     height: 50vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 5rem;
     display: flex;
     justify-content: space-evenly;
@@ -444,7 +456,8 @@
 .container9{
     width: 96.5%;
     height: 50vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    background-color: #ffffff;
     margin-top: 2px;
     display: flex;
     justify-content: space-evenly;
@@ -453,8 +466,8 @@
 
 .footer{
     width: 96.5%;
-    height: 30vh;
-    border: 2px solid green;
+    height: 20vh;
+    /* border: 2px solid green; */
     margin-top: 2px;
     display: flex;
     justify-content: space-evenly;
@@ -474,28 +487,40 @@
     height: 5vh;
     border: 1px solid red;
     padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius:5px
 }
 .emailaddress{
     width: 20vw;
     height: 5vh;
     border: 1px solid red;
     padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
 }
 .time{
     width: 20vw;
     height: 5vh;
     border: 1px solid red;
     padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
 }
 .department{
     width: 20vw;
     height: 5vh;
     border: 1px solid red;
     padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
 }
 
 .buttonbookappointment{
-    width: 70%;
+    width: 90%;
     height: 6vh;
     display: flex;
     align-items: center;
@@ -503,6 +528,7 @@
     border: 2px solid #23a6f0;
     background-color: #23a6f0;
     border-radius: 5px;
+    margin-top: 3rem;
 }
 
 .contactus{
