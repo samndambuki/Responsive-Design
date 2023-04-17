@@ -46,6 +46,10 @@
     justify-content: space-around;
 }
 
+.brandname ion-icon{
+    display: none;
+}
+
 .navlinks{
     margin-left: 10px;
     display: flex;
@@ -540,4 +544,233 @@
     border: 2px solid #23a6f0;
     background-color: #23a6f0;
     border-radius: 5px;
+}
+
+@media screen and (max-width:768px){
+    .container1{
+        margin-top: 2px;
+        padding:10px;
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 0;
+    }
+    
+    .navbar{
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .brandname{
+        margin-left: -10rem;
+        display: flex;
+    }
+
+    .brandname ion-icon{
+        display: flex;
+    }
+    
+    .navlinks{
+        margin-left: 5rem;
+        display: none;
+        gap:2px;
+        justify-content: space-evenly;
+        margin-left: 3rem;
+    }
+    
+    .navlinks a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .login{
+        margin-left: 30rem;
+        color: white;
+        font-weight: bold;
+        margin-right: 4rem;
+    }
+    
+    .member{
+        width:15vw;
+        height: 5vh;
+        background-color: #23a6f0;
+        padding: 5px;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -10rem;
+        gap: 10px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        /* margin-left: 20rem; */
+    }
+
+
+.buttons{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.getquotenow{
+    background-color: #23a6f0;
+    width:100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20rem;
+}
+
+.learnmore{
+    background-color: transparent;
+    width:100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    margin-right: 20rem;
+}
+
+.persons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.person1{
+    width: 25%;
+    height: 60vh;
+    border: 2px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars{
+
+    color: #f3cd03;
+    margin-top: 5rem;
+    width: 7rem;
+    height: 10vh;
+}
+
+.person1 p{
+    width: 60%;
+    height: 70px;
+}
+
+.container6{
+    width: 96.5%;
+    height: 90vh;
+    /* border: 2px solid red; */
+    margin-top: 2px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-top: 2rem;
+    background-color: #252b42;
+}
+
+.branches{
+    width: 40%;
+    height: 30vh;
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.branches p{
+    width: 130%;
+    height: 10vh;
+    margin-top: 5rem;
+}
+
+.branchesworld img{
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 8rem;
+
+}
+
+.branchesandworld{
+    display: flex;
+}
+
+.container7{
+    width: 50%;
+    height: 100vh;
+    border: 2px solid transparent;
+    margin-top: -15rem;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: white;
+}
+
+.bookappointmentimage{
+    width: 20vw;
+     height: 95vh; 
+     margin-left: 4rem;
+     margin-top: -2.8rem;
+}
+
+.bookappointment{
+   margin-top: -8rem;
+}
+
+
+.buttonbookappointment{
+    width: 90%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #23a6f0;
+    background-color: #23a6f0;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.container8{
+    width: 96.5%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.consulting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:25rem;
+}
+
+.agency{
+    display: flex;
+}
+
+
+
+    
+
 }
